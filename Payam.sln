@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33213.308
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Domain", "Domain\Domain.csproj", "{DB072B4D-F655-452B-8AC6-1EE456B9879F}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Payam", "Payam\Payam.csproj", "{CCD558DF-9221-4CEF-8FE7-EFDAD1D23D6E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Domain.Test", "Domain.Test\Domain.Test.csproj", "{C29CF28A-DD3E-4ECB-A141-4623E97630F8}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DB072B4D-F655-452B-8AC6-1EE456B9879F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DB072B4D-F655-452B-8AC6-1EE456B9879F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DB072B4D-F655-452B-8AC6-1EE456B9879F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DB072B4D-F655-452B-8AC6-1EE456B9879F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CCD558DF-9221-4CEF-8FE7-EFDAD1D23D6E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CCD558DF-9221-4CEF-8FE7-EFDAD1D23D6E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CCD558DF-9221-4CEF-8FE7-EFDAD1D23D6E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CCD558DF-9221-4CEF-8FE7-EFDAD1D23D6E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C29CF28A-DD3E-4ECB-A141-4623E97630F8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C29CF28A-DD3E-4ECB-A141-4623E97630F8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C29CF28A-DD3E-4ECB-A141-4623E97630F8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C29CF28A-DD3E-4ECB-A141-4623E97630F8}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {929B8DAD-F193-4B53-9E13-4BEA11CB8956}
+	EndGlobalSection
+EndGlobal
