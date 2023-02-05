@@ -8,8 +8,8 @@ namespace Domain.Test
         [TestMethod]
         public void CreateBasicElectircityTarriffCalculator_retriveTarrifName()
         {
-            var tarrif = new BasicElectircityTarriffCalculator(3600);
-            Assert.AreEqual(tarrif.TarrifName, "Basic Electircity Tarriff");
+            var tarrif = new BasicElectricityTariffCalculator(3600);
+            Assert.AreEqual(tarrif.TariffName, "Basic Electricity Tariff");
         }
         [TestMethod]
         [DataRow(3500, 830)]
@@ -17,7 +17,7 @@ namespace Domain.Test
         [DataRow(6000, 1380)]
         public void CreateBasicElectircityTarriffCalculator_retriveAnnualCosts(long kwPerYear, double AssertResault)
         {
-            var tarrif = new BasicElectircityTarriffCalculator(kwPerYear);
+            var tarrif = new BasicElectricityTariffCalculator(kwPerYear);
             Assert.AreEqual(tarrif.AnnualCosts, AssertResault);
         }
     }

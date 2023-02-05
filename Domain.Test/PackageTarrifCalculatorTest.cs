@@ -8,8 +8,8 @@ namespace Domain.Test
         [TestMethod]
         public void CreatePackageTarrifCalculator_retriveTarrifName()
         {
-            var tarrif = new PackageTarrifCalculator(3600);
-            Assert.AreEqual(tarrif.TarrifName, "Package Tarrif");
+            var tarrif = new PackageTariffCalculator(3600);
+            Assert.AreEqual(tarrif.TariffName, "Package Tariff");
         }
         [TestMethod]
         [DataRow(3500, 800)]
@@ -17,7 +17,7 @@ namespace Domain.Test
         [DataRow(6000, 1400)]
         public void CreatePackageTarrifCalculator_retriveAnnualCosts(long kwPerYear, double AssertResault)
         {
-            var tarrif = new PackageTarrifCalculator(kwPerYear);
+            var tarrif = new PackageTariffCalculator(kwPerYear);
             Assert.AreEqual(tarrif.AnnualCosts, AssertResault);
         }
     }

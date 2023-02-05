@@ -2,24 +2,24 @@
 using Domain;
 Console.WriteLine($"***********************************Domain1********************************************\n\n");
 
-ElectricityComairation electricityComairation = new ElectricityComairation();
+ElectricityComparison electricityComparison = new ElectricityComparison();
 
-var tarris = electricityComairation.Consumption(3500);
+var tarris = electricityComparison.Compare(3500);
 foreach (var item in tarris)
 {
-    Console.WriteLine($"Consumption for {item.TarrifName} is {item.AnnualCosts}");
+    Console.WriteLine($"Consumption for {item.TariffName} is {item.AnnualCosts}");
 }
 
-tarris = electricityComairation.Consumption(4500);
+tarris = electricityComparison.Compare(4500);
 foreach (var item in tarris)
 {
-    Console.WriteLine($"Consumption for {item.TarrifName} is {item.AnnualCosts}");
+    Console.WriteLine($"Consumption for {item.TariffName} is {item.AnnualCosts}");
 }
 
-tarris = electricityComairation.Consumption(6000);
+tarris = electricityComparison.Compare(6000);
 foreach (var item in tarris)
 {
-    Console.WriteLine($"Consumption for {item.TarrifName} is {item.AnnualCosts}");
+    Console.WriteLine($"Consumption for {item.TariffName} is {item.AnnualCosts}");
 }
 
 Console.ReadKey();
